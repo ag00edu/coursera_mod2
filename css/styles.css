@@ -1,0 +1,167 @@
+/************** Basic styles  **************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 18px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    bottom: auto;
+    margin: 0;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    padding-bottom: 4px;
+    font-size: 1.1em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2em;
+}
+
+.our_menu {
+    overflow: hidden;
+}
+
+.width_max_constraint {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1273px;
+}
+
+.width_max_constraint > article {
+    max-width: 392px;
+}
+
+.our_menu > article {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 18px;
+    border: 2px solid #000000;
+    padding-right: 14px;
+    padding-left: 14px;
+    height: 158px;
+    background-color: #999999;
+}
+
+.our_menu article:nth-child(2) {
+    padding-top: 38px;
+}
+
+.our_menu article:nth-child(3) {
+    padding-top: 34px;
+    padding-bottom: 4px;
+}
+
+.our_menu article:nth-child(4) {
+    padding-top: 34px;
+    padding-bottom: 4px;
+}
+
+.our_menu article:nth-child(2) h2 {
+    padding-right: 36px;
+    padding-left: 36px;
+    background-color: #d59898;
+    color: #000000;
+}
+
+.our_menu article:nth-child(3) h2 {
+    padding-right: 53px;
+    padding-left: 53px;
+    background-color: #c14543;
+    color: #ffffff;
+}
+
+.our_menu article:nth-child(4) h2 {
+    padding-right: 44px;
+    padding-left: 44px;
+    background-color: #e5d198;
+    color: #000000;
+}
+
+/************** Mobile styles  **************/
+
+@media (max-width: 767px) {
+
+    h1 {
+        margin-bottom: 12px;
+    }
+
+    .our_menu > article {
+        margin-left: 10.4384133611691%;
+        margin-right: 7.724425887265136%;
+        width: 81.83716075156576%;
+    }
+}
+
+/************** Tablet styles  **************/
+
+@media (min-width: 768px) and (max-width: 991px ) {
+
+    h1 {
+        margin-bottom: 1.3em;
+    }
+
+    .our_menu article:nth-child(2) {
+        margin-right: 1.28755364806867%;
+        margin-left: 3.290414878397711%;
+        width: 45.49356223175966%;
+    }
+
+    .our_menu article:nth-child(3) {
+        margin-right: 3.147353361945637%;
+        margin-left: 1.28755364806867%;
+        width: 45.49356223175966%;
+    }
+
+    .our_menu article:nth-child(4) {
+        margin-left: 3.290414878397711%;
+        margin-right: 3.147353361945637%;
+        width: 93.56223175965665%
+
+    }
+}
+
+/************** Desktop styles  **************/
+
+@media (min-width: 992px) {
+
+    h1 {
+        margin-bottom: 2.2em;
+    }
+
+    .our_menu > article {
+        width: 30.79340141398272%;
+    }
+
+    .our_menu article:nth-child(2) {
+        margin-right: 1.099764336213668%;
+        margin-left: 2.120974076983504%;
+    }
+
+    .our_menu article:nth-child(3) {
+        margin-right: 0.6284367635506677%;
+        margin-left: 1.099764336213668%;
+    }
+
+    .our_menu article:nth-child(4) {
+        margin-left: 0.7069913589945012%;
+        margin-right: 1.963864886095837%;
+    }
+}
